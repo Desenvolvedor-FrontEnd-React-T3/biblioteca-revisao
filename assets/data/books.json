@@ -1,0 +1,122 @@
+[
+	{
+		"id": 1,
+		"title": "Dom Casmurro",
+		"author": "Machado de Assis",
+		"available": true,
+		"numPages": 256,
+		"genre": "Romance",
+		"publishedYear": 1899,
+		"language": "pt-BR",
+		"isbn": "9788572326971",
+		"publisher": "Editora Ática"
+	},
+	{
+		"id": 2,
+		"title": "1984",
+		"author": "George Orwell",
+		"available": false,
+		"numPages": 328,
+		"genre": "Distopia",
+		"publishedYear": 1949,
+		"language": "en",
+		"isbn": "9780451524935",
+		"publisher": "Signet Classics"
+	},
+	{
+		"id": 3,
+		"title": "O Pequeno Príncipe",
+		"author": "Antoine de Saint-Exupéry",
+		"available": true,
+		"numPages": 96,
+		"genre": "Fábula",
+		"publishedYear": 1943,
+		"language": "fr",
+		"isbn": "9780156012195",
+		"publisher": "Reynal & Hitchcock"
+	},
+	{
+		"id": 4,
+		"title": "Harry Potter e a Pedra Filosofal",
+		"author": "J. K. Rowling",
+		"available": true,
+		"numPages": 223,
+		"genre": "Fantasia",
+		"publishedYear": 1997,
+		"language": "en",
+		"isbn": "9780747532699",
+		"publisher": "Bloomsbury"
+	},
+	{
+		"id": 5,
+		"title": "A Revolução dos Bichos",
+		"author": "George Orwell",
+		"available": false,
+		"numPages": 112,
+		"genre": "Sátira política",
+		"publishedYear": 1945,
+		"language": "en",
+		"isbn": "9780451526342",
+		"publisher": "Signet Classics"
+	},
+	{
+		"id": 6,
+		"title": "Orgulho e Preconceito",
+		"author": "Jane Austen",
+		"available": true,
+		"numPages": 432,
+		"genre": "Romance",
+		"publishedYear": 1813,
+		"language": "en",
+		"isbn": "9780141439518",
+		"publisher": "Penguin Classics"
+	},
+	{
+		"id": 7,
+		"title": "O Hobbit",
+		"author": "J. R. R. Tolkien",
+		"available": true,
+		"numPages": 310,
+		"genre": "Fantasia",
+		"publishedYear": 1937,
+		"language": "en",
+		"isbn": "9780547928227",
+		"publisher": "Houghton Mifflin Harcourt"
+	},
+	{
+		"id": 8,
+		"title": "Ensaio sobre a Cegueira",
+		"author": "José Saramago",
+		"available": false,
+		"numPages": 352,
+		"genre": "Romance",
+		"publishedYear": 1995,
+		"language": "pt",
+		"isbn": "9780156007757",
+		"publisher": "Caminho"
+	},
+	{
+		"id": 9,
+		"title": "Cem Anos de Solidão",
+		"author": "Gabriel García Márquez",
+		"available": true,
+		"numPages": 417,
+		"genre": "Realismo mágico",
+		"publishedYear": 1967,
+		"language": "es",
+		"isbn": "9780060883287",
+		"publisher": "Harper Perennial"
+	},
+	{
+		"id": 10,
+		"title": "O Alquimista",
+		"author": "Paulo Coelho",
+		"available": true,
+		"numPages": 208,
+		"genre": "Ficção filosófica",
+		"publishedYear": 1988,
+		"language": "pt",
+		"isbn": "9780061122415",
+		"publisher": "HarperOne"
+	}
+]
