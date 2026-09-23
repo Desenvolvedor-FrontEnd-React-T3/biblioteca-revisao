@@ -1,4 +1,5 @@
 import fetchBooks from "./load-books.js";
+import readerRegistration from "./user-form.js";
 
 console.log("Hello, World!");
 
@@ -9,3 +10,5 @@ if (books) {
 } else {
   console.log("Livros não carregados!");
 }
+
+readerRegistration();

@@ -9,6 +9,62 @@
     <title>Biblioteca</title>
   </head>
   <body>
+    <header>
+      <h1>Biblioteca</h1>
+    </header>
+
+    <main>
+      <form id="user-form">
+        <div>
+          <label for="reader-name">Nome do(a) Leitor(a)</label>
+          <input
+            id="reader-name"
+            name="reader-name"
+            type="text"
+            placeholder="Digite o seu nome..."
+            required
+          />
+        </div>
+
+        <div>
+          <label for="reader-email">E-mail</label>
+          <input
+            id="reader-email"
+            name="reader-email"
+            type="email"
+            placeholder="Digite o seu e-mail..."
+            required
+          />
+        </div>
+
+        <div>
+          <label for="reader-phone">Telefone</label>
+          <input
+            id="reader-phone"
+            name="reader-phone"
+            type="tel"
+            placeholder="(00) 00000-0000"
+          />
+        </div>
+
+        <div>
+          <label for="reader-birthdate">Data de nascimento</label>
+          <input id="reader-birthdate" name="reader-birthdate" type="date" />
+        </div>
+
+        <div>
+          <label for="reader-address">Endereço</label>
+          <input
+            id="reader-address"
+            name="reader-address"
+            type="text"
+            placeholder="Rua, número, bairro..."
+          />
+        </div>
+
+        <button type="submit">Salvar</button>
+      </form>
+    </main>
     <script type="module" src="./assets/scripts/index.script.js"></script>
   </body>
 </html>
