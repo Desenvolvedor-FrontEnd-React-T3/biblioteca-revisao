@@ -1,5 +1,5 @@
 export default async function fetchBooks() {
-  const dataURL = "./assets/daa/books.json";
+  const dataURL = "./assets/data/books.json";
 
   try {
     const response = await fetch(dataURL);
