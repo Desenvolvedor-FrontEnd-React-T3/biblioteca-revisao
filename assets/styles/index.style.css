@@ -125,13 +125,13 @@ button:hover {
   background-color: #2462b3;
 }
 
-#books-list {
+.books-list {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-#book-card {
+.book-card {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -144,18 +144,18 @@ h3 {
   font-size: 18px;
 }
 
-#book-info {
+.book-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   font-size: 14px;
 }
 
-#book-info span {
+.book-info span {
   font-weight: bold;
 }
 
-#tag {
+.tag {
   padding: 4px 8px;
   border-radius: 6px;
   align-self: flex-start;
