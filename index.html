@@ -11,59 +11,104 @@
   <body>
     <header>
       <h1>Biblioteca</h1>
+      <button id="registration" type="button">Esconder Formulário</button>
     </header>
 
+    <span id="message"></span>
     <main>
-      <form id="user-form">
-        <div>
-          <label for="reader-name">Nome do(a) Leitor(a)</label>
-          <input
-            id="reader-name"
-            name="reader-name"
-            type="text"
-            placeholder="Digite o seu nome..."
-            required
-          />
-        </div>
+      <section id="form-section">
+        <h2>Cadastro de Leitores</h2>
+        <form id="user-form">
+          <div>
+            <label for="reader-name">Nome do(a) Leitor(a)</label>
+            <input
+              id="reader-name"
+              name="reader-name"
+              type="text"
+              placeholder="Digite o seu nome..."
+              required
+            />
+          </div>
 
-        <div>
-          <label for="reader-email">E-mail</label>
-          <input
-            id="reader-email"
-            name="reader-email"
-            type="email"
-            placeholder="Digite o seu e-mail..."
-            required
-          />
-        </div>
+          <div>
+            <label for="reader-email">E-mail</label>
+            <input
+              id="reader-email"
+              name="reader-email"
+              type="email"
+              placeholder="Digite o seu e-mail..."
+              required
+            />
+          </div>
 
-        <div>
-          <label for="reader-phone">Telefone</label>
-          <input
-            id="reader-phone"
-            name="reader-phone"
-            type="tel"
-            placeholder="(00) 00000-0000"
-          />
-        </div>
+          <div id="paralel-fields">
+            <div>
+              <label for="reader-phone">Telefone</label>
+              <input
+                id="reader-phone"
+                name="reader-phone"
+                type="tel"
+                placeholder="(00) 00000-0000"
+              />
+            </div>
 
-        <div>
-          <label for="reader-birthdate">Data de nascimento</label>
-          <input id="reader-birthdate" name="reader-birthdate" type="date" />
-        </div>
+            <div>
+              <label for="reader-birthdate">Data de nascimento</label>
+              <input
+                id="reader-birthdate"
+                name="reader-birthdate"
+                type="date"
+              />
+            </div>
+          </div>
 
-        <div>
-          <label for="reader-address">Endereço</label>
-          <input
-            id="reader-address"
-            name="reader-address"
-            type="text"
-            placeholder="Rua, número, bairro..."
-          />
-        </div>
+          <div>
+            <label for="reader-address">Endereço</label>
+            <input
+              id="reader-address"
+              name="reader-address"
+              type="text"
+              placeholder="Rua, número, bairro..."
+            />
+          </div>
 
-        <button type="submit">Salvar</button>
-      </form>
+          <button type="submit">Salvar</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Livros</h2>
+
+        <div id="books-list">
+          <div id="book-card">
+            <h3>Dom Casmurro</h3>
+            <p>Machado de Assis</p>
+            <div id="book-info">
+              <p>Romance</p>
+              <span>|</span>
+              <p>1899</p>
+              <span>|</span>
+              <p>256</p>
+            </div>
+            <span id="tag" class="available">Disponível</span>
+            <button>Solicitar Empréstimo</button>
+          </div>
+
+          <div id="book-card">
+            <h3>O Pequeno Príncipe</h3>
+            <p>Antoine de Saint-Exupéry</p>
+            <div id="book-info">
+              <p>Fábula</p>
+              <span>|</span>
+              <p>1943</p>
+              <span>|</span>
+              <p>96</p>
+            </div>
+            <span id="tag" class="unavailable">Indisponível</span>
+            <button>Solicitar Empréstimo</button>
+          </div>
+        </div>
+      </section>
     </main>
     <script type="module" src="./assets/scripts/index.script.js"></script>
   </body>
